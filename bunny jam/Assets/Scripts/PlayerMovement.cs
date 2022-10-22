@@ -7,11 +7,12 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
-    public float fallMultiplier = 2.5f;
+    public float gravityScale = 10;
+    public float fallingGravityScale = 40;
 
     private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 16f;
+    public float speed = 8f;
+    public float jumpingPower = 16f;
     private bool isFacingRight = true;
 
     void Update()
@@ -24,29 +25,42 @@ public class PlayerMovement : MonoBehaviour
         {
             Flip();
         }
+
+        if (rb.velocity.y >= 0)
+        {
+            rb.gravityScale = gravityScale;
+        }
+        else if (rb.velocity.y < 0)
+        {
+            rb.gravityScale = fallingGravityScale;
+        }
     }
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        if (IsGrounded())
+        {
+            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        }
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
         if (context.performed && IsGrounded())
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            rb.AddForce(Vector2.up * jumpingPower, ForceMode2D.Impulse);
         }
-
+        /*
         if (context.canceled && rb.velocity.y > 0f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * fallMultiplier);
         }
+        */
     }
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapBox(groundCheck.position, Vector2.one, groundLayer);
     }
 
     private void Flip()
