@@ -5,6 +5,7 @@ using UnityEngine;
 public class AudioLibrary : MonoBehaviour
 {
     public static AudioLibrary S_library { get; private set; }
+    [SerializeField] public AudioClip BunnyTransform;
     [SerializeField] public AudioClip GrassLand;
     [SerializeField] public AudioClip GrassWalk;
     [SerializeField] public AudioClip Jump;
@@ -19,6 +20,11 @@ public class AudioLibrary : MonoBehaviour
     [SerializeField] public AudioClip StoneWalk;
     [SerializeField] public AudioClip WoodLand;
     [SerializeField] public AudioClip WoodWalk;
+
+    public void BunnyTransformPlay(AudioSource AS)
+    {
+        AS.PlayOneShot(BunnyTransform);
+    }
 
     public void GrassLandPlay(AudioSource AS)
     {
