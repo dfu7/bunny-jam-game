@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class SpriteController : MonoBehaviour
 {
-    BoxCollider2D bc;
     SpriteRenderer sr;
     PlayerMovement pm;
     bool inSludge = false;
+
+    public AudioSource AS0;
+    public AudioSource AS1;
+    public AudioSource AS2;
+
+    public AudioLibrary audioLibrary;
 
     public Sprite initialSprite;
     public Sprite secondSprite;
@@ -36,6 +41,13 @@ public class SpriteController : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;
         transform.localScale = localScale;
+
+        audioLibrary.MStage0Play(AS0);
+        audioLibrary.MStage1Play(AS1);
+        audioLibrary.MStage2Play(AS2);
+
+        AS1.mute = true;
+        AS2.mute = true;
     }
 
     // Update is called once per frame
@@ -71,13 +83,13 @@ public class SpriteController : MonoBehaviour
         {
             sr.sprite = lastSprite;
             pm.jumpingPower = lastJumpingPower;
-            // increase box collider size
+            AS2.mute = false;
         }
         else if (timeInSludge > initialThreshold)
         {
             sr.sprite = secondSprite;
             pm.jumpingPower = secondJumpingPower;
-            // increase box collider size
+            AS1.mute = false;
         }
         else if (timeInSludge > lossThreshold)
         {
