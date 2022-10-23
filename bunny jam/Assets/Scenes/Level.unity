@@ -14381,6 +14381,65 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1686368724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686368726}
+  - component: {fileID: 1686368725}
+  m_Layer: 0
+  m_Name: AudioLibrary
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1686368725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686368724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c448036de33e83c418ff6b0af94c5d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BunnyTransform: {fileID: 8300000, guid: 6e5d27d196c98624fab9d0c2cbee19d7, type: 3}
+  GrassLand: {fileID: 8300000, guid: 19e11b95823a6ab4393a14607924c0c4, type: 3}
+  GrassWalk: {fileID: 8300000, guid: e6be2f14cee7fe6438f99eab9333b7aa, type: 3}
+  Jump: {fileID: 8300000, guid: 670373106ef697145bea34df61235fc1, type: 3}
+  MStage0: {fileID: 8300000, guid: 12dd1a2084d2f6c49a1151a82188929b, type: 3}
+  MStage1: {fileID: 8300000, guid: ff7c9b10bd530d544a0ab3aad6577f59, type: 3}
+  MStage2: {fileID: 8300000, guid: 289ba3cc0e66e714492b7ca87c664bba, type: 3}
+  RabbitDeath: {fileID: 8300000, guid: ae788b8d8f8e7f347b059552c2eb447e, type: 3}
+  Rain: {fileID: 8300000, guid: 7bd303f9778ee654e9462566b1cb15c3, type: 3}
+  SludgeLand: {fileID: 8300000, guid: ad5e3cf28524960488ecaa5906cd9564, type: 3}
+  SludgeWalk: {fileID: 8300000, guid: 1075ea2a97276f1408f3d306f2a67905, type: 3}
+  StoneLand: {fileID: 8300000, guid: 2d8386d23ffaa8d40bbc0741888ae598, type: 3}
+  StoneWalk: {fileID: 8300000, guid: 4a2349543e5a2a74887ff3b192464931, type: 3}
+  WoodLand: {fileID: 8300000, guid: cecc5a8c6a9f78c44b9c9cd41763e61a, type: 3}
+  WoodWalk: {fileID: 8300000, guid: 883fe59af948d6a419345c2d0981b608, type: 3}
+--- !u!4 &1686368726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686368724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.09673, y: -0.00024111499, z: 0.0003659784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1693851927
 GameObject:
   m_ObjectHideFlags: 0
