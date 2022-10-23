@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class SpriteController : MonoBehaviour
 {
+    BoxCollider2D bc;
     SpriteRenderer sr;
+    PlayerMovement pm;
     bool inSludge = false;
 
     public Sprite initialSprite;
@@ -17,11 +19,19 @@ public class SpriteController : MonoBehaviour
     public float secondThreshold = 8f;
     public float lossThreshold = 12f;
 
+    public float initialJumpingPower = 20f;
+    public float secondJumpingPower = 25f;
+    public float lastJumpingPower = 33f;
+
+    public float secondBoxColliderSize = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         sr.sprite = initialSprite;
+
+        pm = GetComponent<PlayerMovement>();
 
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;
@@ -60,10 +70,14 @@ public class SpriteController : MonoBehaviour
         if (timeInSludge > secondThreshold)
         {
             sr.sprite = lastSprite;
+            pm.jumpingPower = lastJumpingPower;
+            // increase box collider size
         }
         else if (timeInSludge > initialThreshold)
         {
             sr.sprite = secondSprite;
+            pm.jumpingPower = secondJumpingPower;
+            // increase box collider size
         }
         else if (timeInSludge > lossThreshold)
         {
