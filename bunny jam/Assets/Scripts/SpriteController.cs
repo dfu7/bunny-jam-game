@@ -12,6 +12,11 @@ public class SpriteController : MonoBehaviour
     public AudioSource AS1;
     public AudioSource AS2;
 
+    public float fadetime = 2f;
+    private Coroutine activeman;
+    private bool start;
+    private bool start2;
+
     public AudioLibrary audioLibrary;
 
     public Sprite initialSprite;
@@ -46,8 +51,10 @@ public class SpriteController : MonoBehaviour
         audioLibrary.MStage1Play(AS1);
         audioLibrary.MStage2Play(AS2);
 
-        AS1.mute = true;
-        AS2.mute = true;
+        AS1.volume = 0f;
+        AS2.volume = 0f;
+        start = true;
+        start2 = true;
     }
 
     // Update is called once per frame
@@ -83,18 +90,51 @@ public class SpriteController : MonoBehaviour
         {
             sr.sprite = lastSprite;
             pm.jumpingPower = lastJumpingPower;
-            AS2.mute = false;
+            if (start)
+            {
+                StartCoroutine(FadeIn());
+                start = false;
+            }
         }
         else if (timeInSludge > initialThreshold)
         {
             sr.sprite = secondSprite;
             pm.jumpingPower = secondJumpingPower;
-            AS1.mute = false;
+            if (start2)
+            { 
+                StartCoroutine(FadeIn2());
+                start2 = false;
+            }
+            
         }
         else if (timeInSludge > lossThreshold)
         {
             // to do
             Debug.Log("you lost");
         }
+    }
+
+    IEnumerator FadeIn()
+    {
+        float timepassed = 0f;
+        while(timepassed < fadetime)
+        {
+            AS2.volume = Mathf.Lerp(0, 0.5f, timepassed / fadetime);
+            timepassed += Time.deltaTime;
+            yield return null;
+        }
+        AS2.volume = 0.5f;
+        }
+
+    IEnumerator FadeIn2()
+    {
+        float timepassed = 0f;
+        while (timepassed < fadetime)
+        {
+            AS1.volume = Mathf.Lerp(0, 0.7f, timepassed / fadetime);
+            timepassed += Time.deltaTime;
+            yield return null;
+        }
+        AS1.volume = 0.7f;
     }
 }
