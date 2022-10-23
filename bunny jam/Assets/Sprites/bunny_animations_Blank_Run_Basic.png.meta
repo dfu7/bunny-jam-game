@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,7 +152,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 025c9838f71d388429c13bcbc08aeb31
+      spriteID: 97e05b09ad1ef4f4ebc298ec0e7e7a34
       internalID: 1301387457
       vertices: []
       indices: 
@@ -164,7 +164,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1304
         y: 418
-        width: 674
+        width: 681
         height: 595
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -173,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ba073f22f38e35439c35c510755bf4b
+      spriteID: a865f75cbaf18dd459e14ff15025625b
       internalID: 1441592672
       vertices: []
       indices: 
@@ -184,9 +184,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2120
-        y: 589
+        y: 415
         width: 829
-        height: 473
+        height: 649
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,7 +194,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec442607ee240804b8db57984983c017
+      spriteID: 1c2f1a9a45e04704b8e6eafd738a5a3a
       internalID: 1847580803
       vertices: []
       indices: 
@@ -206,7 +206,7 @@ TextureImporter:
         serializedVersion: 2
         x: 3014
         y: 417
-        width: 770
+        width: 764
         height: 496
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -215,7 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1eb93e864350f04bbd2a75e28225977
+      spriteID: 88ba1cae0e262e3439bb4ad12f97446f
       internalID: -2048579478
       vertices: []
       indices: 
@@ -227,7 +227,7 @@ TextureImporter:
         serializedVersion: 2
         x: 3889
         y: 422
-        width: 639
+        width: 627
         height: 506
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,29 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9db0e2faa4dcb842a7fc84cc5ba0d0a
+      spriteID: 1e9ba30a6d92c2d4990e885ebd20645f
       internalID: 1257322202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bunny_animations_Blank_Run_Basic_7
-      rect:
-        serializedVersion: 2
-        x: 4514
-        y: 410
-        width: 562
-        height: 536
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ceee208f5654ffc4eb4f2ce61f9fde4b
-      internalID: -1943195186
       vertices: []
       indices: 
       edges: []
@@ -274,22 +253,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bunny_animations_Blank_Run_Basic_10: 564597247
-      bunny_animations_Blank_Run_Basic_3: -1015222983
+      bunny_animations_Blank_Run_Basic_10: 1970583083
+      bunny_animations_Blank_Run_Basic_3: 1119200656
       bunny_animations_Blank_Run_Basic_1: 1301387457
-      bunny_animations_Blank_Run_Basic_13: 652692686
-      bunny_animations_Blank_Run_Basic_12: 29959546
+      bunny_animations_Blank_Run_Basic_13: 328966197
+      bunny_animations_Blank_Run_Basic_12: -1156701064
       bunny_animations_Blank_Run_Basic_5: -2048579478
-      bunny_animations_Blank_Run_Basic_15: -651228611
+      bunny_animations_Blank_Run_Basic_15: -206797610
       bunny_animations_Blank_Run_Basic_0: 1962720597
       bunny_animations_Blank_Run_Basic_4: 1847580803
-      bunny_animations_Blank_Run_Basic_7: -1943195186
-      bunny_animations_Blank_Run_Basic_11: 1093806588
-      bunny_animations_Blank_Run_Basic_9: 1385308921
-      bunny_animations_Blank_Run_Basic_8: 582055284
+      bunny_animations_Blank_Run_Basic_7: -1004348416
+      bunny_animations_Blank_Run_Basic_11: -364147241
+      bunny_animations_Blank_Run_Basic_9: 133682182
+      bunny_animations_Blank_Run_Basic_8: 567415253
       bunny_animations_Blank_Run_Basic_2: 1441592672
       bunny_animations_Blank_Run_Basic_6: 1257322202
-      bunny_animations_Blank_Run_Basic_14: 879916482
+      bunny_animations_Blank_Run_Basic_14: 443075543
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
