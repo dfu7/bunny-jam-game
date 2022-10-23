@@ -8,6 +8,9 @@ public class AudioLibrary : MonoBehaviour
     [SerializeField] public AudioClip GrassLand;
     [SerializeField] public AudioClip GrassWalk;
     [SerializeField] public AudioClip Jump;
+    [SerializeField] public AudioClip MStage0;
+    [SerializeField] public AudioClip MStage1;
+    [SerializeField] public AudioClip MStage2;
     [SerializeField] public AudioClip RabbitDeath;
     [SerializeField] public AudioClip Rain;
     [SerializeField] public AudioClip SludgeLand;
@@ -30,6 +33,21 @@ public class AudioLibrary : MonoBehaviour
     public void JumpPlay(AudioSource AS)
     {
         AS.PlayOneShot(Jump);
+    }
+
+    public void MStage0Play (AudioSource AS)
+    {
+        AS.PlayOneShot(MStage0);
+    }
+
+    public void MStage1Play(AudioSource AS)
+    {
+        AS.PlayOneShot(MStage1);
+    }
+
+    public void MStage2Play(AudioSource AS)
+    {
+        AS.PlayOneShot(MStage2);
     }
 
     public void RabbitDeathPlay(AudioSource AS)
