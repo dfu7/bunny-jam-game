@@ -39,7 +39,7 @@ public class SpriteController : MonoBehaviour
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        sr.sprite = initialSprite;
+        //sr.sprite = initialSprite;
 
         pm = GetComponent<PlayerMovement>();
 

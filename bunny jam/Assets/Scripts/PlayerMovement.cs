@@ -1,8 +1,12 @@
+using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Animator animator;
+    public SpriteRenderer sr;
+
     public Rigidbody2D rb;
     public Transform groundCheck;
     public LayerMask groundLayer;
@@ -17,13 +21,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!isFacingRight && horizontal > 0f)
+        if (horizontal > 0f)
         {
-            Flip();
+            sr.flipX = true;
         }
-        else if (isFacingRight && horizontal < 0f)
+        else if (horizontal < 0f)
         {
-            Flip();
+            sr.flipX = false;
         }
 
         if (rb.velocity.y >= 0)
@@ -63,16 +67,9 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.5f, groundLayer);
     }
 
-    private void Flip()
-    {
-        isFacingRight = !isFacingRight;
-        Vector3 localScale = transform.localScale;
-        localScale.x *= -1f;
-        transform.localScale = localScale;
-    }
-
     public void Move(InputAction.CallbackContext context)
     {
         horizontal = context.ReadValue<Vector2>().x;
+        animator.SetFloat("horizontal", horizontal);
     }
 }
