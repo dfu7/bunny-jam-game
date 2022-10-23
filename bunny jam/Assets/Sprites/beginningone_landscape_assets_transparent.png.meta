@@ -1,0 +1,1180 @@
+fileFormatVersion: 2
+guid: 9509e9d26e77faa4b9069f62dfb06375
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 3620
+        width: 842
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f82f467869eada47965f4ac41eaa13a
+      internalID: 2113230813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 3474
+        width: 732
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c3e52eda864bd4f82806b5c67b7c17
+      internalID: 816482001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 3433
+        width: 678
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c889f6c75af584897466046cd87608
+      internalID: 751978464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3112
+        width: 1170
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58d107dfe8920e46abce8641ace7583
+      internalID: -825567562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2856
+        width: 302
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de690b13bc309bb4ba870c345921dd9f
+      internalID: -334980312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 2911
+        width: 450
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08049fbc9053c04499298c0a4eed8553
+      internalID: -915551208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 2726
+        width: 744
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b459c3f69da3e294292321bc01847083
+      internalID: 929623948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 3084
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c12e79d15b24c428bcf9af318313e8
+      internalID: 1934479855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2360
+        width: 383
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062fc661a5624da44b921db984c9f83d
+      internalID: -215708602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 2658
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145bd00657d9a304ea17047da2b567ab
+      internalID: 755448404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 2151
+        width: 656
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1ece4cfef6f434c8532bacd0fb303e
+      internalID: 741939636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 2175
+        width: 355
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8773838df41620e47bce851868c0f43d
+      internalID: 1026916394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 2150
+        width: 203
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf3b5ccf4e15ab44a251831d78d31d3
+      internalID: -140705312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 2164
+        width: 301
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb0d2284d75eef4eb23b63835d690b8
+      internalID: -562097912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1736
+        width: 508
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fc81c341c5836419853c50b82da264
+      internalID: 778911613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1736
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b46a6ce892b7d45a4ae5febd2db6d3
+      internalID: 1596189917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1368
+        width: 288
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9debff2522899394eb52faaa6c9e0d5c
+      internalID: -1408340537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 1526
+        width: 537
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3af397b514da1641a045a06699de9ab
+      internalID: 1915557775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 1532
+        width: 316
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046622c55fc8d7c41a3291ae00f1c0f4
+      internalID: 2145893840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_64
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1438
+        width: 443
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423562876c3c8eb4f97ec4d23a2cb1f0
+      internalID: -79454510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_66
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 1532
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b976d6f45f50c4899df73073aac7f8
+      internalID: 48390409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_67
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 1525
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94833dcdb2a426428e2b575214eceb4
+      internalID: -1457999402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_70
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 1019
+        width: 296
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b63e1ff5612b2347acdf41f1a6d0bd8
+      internalID: 575242908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_71
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 1054
+        width: 479
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f6fae753e4fed4c9f754574d2a8610
+      internalID: -1158977748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_73
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 776
+        width: 117
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e56a311b38017449d8f0ec85ec2632
+      internalID: -2077180482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_74
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 810
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe918b8aec21bb48bd8f5a75ef17a02
+      internalID: 167477221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_75
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 774
+        width: 92
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f514ef37ca2c1478d7c45ef074e3ba
+      internalID: 321879699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_76
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 753
+        width: 119
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea786245c9d5eec40b60987cad9131a7
+      internalID: 54429712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_77
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 742
+        width: 86
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bc6cfdd3637514eb18e69de238a8d9
+      internalID: 382902149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_78
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 765
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d914a16a9f6c9664380d2d864eb6a515
+      internalID: 462656323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_79
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 761
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4a9398e71350f4f9a3b7cb15e292f1
+      internalID: 1833842021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_80
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 778
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e591d4c2dbf4ab94b8e0ff2430112f26
+      internalID: -85268313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_81
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 745
+        width: 144
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f4b9098ed71bc45abc1c30588f27cb
+      internalID: 261800466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_82
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 544
+        width: 74
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fc6feb0ef56ba4daa94b273734268b
+      internalID: -852199021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_83
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 542
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7648c114da4bda409e3fa19177bcfd0
+      internalID: -157164423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_84
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 517
+        width: 127
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b6b2a30f401304d99f9def8eb1750c
+      internalID: -261729360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_85
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 663
+        width: 576
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80578a94cd1c7d64c9b6ba12d7fd2859
+      internalID: -956130779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_88
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 555
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53e21a31eb9f574e9c5c42fd1281b37
+      internalID: 749616662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_90
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 571
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43070027e6a8464487a0f78129de271
+      internalID: 2009619901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_91
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 589
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d0e3e33beea0642a6f78324520219b
+      internalID: -1262475218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_92
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 353
+        width: 97
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5200a7d74985c0d4fa30a1590167ab60
+      internalID: 1624405718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_93
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 333
+        width: 111
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c858f2ff7694c46892fc9339ce8d4a
+      internalID: -1101706745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_95
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 323
+        width: 145
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efa7d647d9156c40a7112be73c4967e
+      internalID: -330762964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_96
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 318
+        width: 103
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9362882b354dcd34daa957e751611ac4
+      internalID: 1635618402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beginningone_landscape_assets_transparent_98
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 323
+        width: 108
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b310b8603b26e43a5aa71b792edef0
+      internalID: 1675915511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      beginningone_landscape_assets_transparent_12: -583302658
+      beginningone_landscape_assets_transparent_47: 2029203295
+      beginningone_landscape_assets_transparent_27: -1282596195
+      beginningone_landscape_assets_transparent_78: 462656323
+      beginningone_landscape_assets_transparent_68: -1371625874
+      beginningone_landscape_assets_transparent_19: 696784269
+      beginningone_landscape_assets_transparent_99: 1122664053
+      beginningone_landscape_assets_transparent_65: -1949007642
+      beginningone_landscape_assets_transparent_13: -233810985
+      beginningone_landscape_assets_transparent_14: -1072911065
+      beginningone_landscape_assets_transparent_97: -1248840778
+      beginningone_landscape_assets_transparent_31: -700377577
+      beginningone_landscape_assets_transparent_28: -992354091
+      beginningone_landscape_assets_transparent_42: -562097912
+      beginningone_landscape_assets_transparent_60: 1915557775
+      beginningone_landscape_assets_transparent_20: 929623948
+      beginningone_landscape_assets_transparent_93: -1101706745
+      beginningone_landscape_assets_transparent_73: -2077180482
+      beginningone_landscape_assets_transparent_54: 384658506
+      beginningone_landscape_assets_transparent_74: 167477221
+      beginningone_landscape_assets_transparent_41: -140705312
+      beginningone_landscape_assets_transparent_23: 1934479855
+      beginningone_landscape_assets_transparent_69: -1709526175
+      beginningone_landscape_assets_transparent_4: 816482001
+      beginningone_landscape_assets_transparent_85: -956130779
+      beginningone_landscape_assets_transparent_87: 373809139
+      beginningone_landscape_assets_transparent_6: -825567562
+      beginningone_landscape_assets_transparent_10: -126245767
+      beginningone_landscape_assets_transparent_46: 979245198
+      beginningone_landscape_assets_transparent_83: -157164423
+      beginningone_landscape_assets_transparent_33: -215708602
+      beginningone_landscape_assets_transparent_0: 217666263
+      beginningone_landscape_assets_transparent_70: 575242908
+      beginningone_landscape_assets_transparent_48: -1777428207
+      beginningone_landscape_assets_transparent_51: 2114992289
+      beginningone_landscape_assets_transparent_96: 1635618402
+      beginningone_landscape_assets_transparent_66: 48390409
+      beginningone_landscape_assets_transparent_32: 2123833915
+      beginningone_landscape_assets_transparent_37: -1302655988
+      beginningone_landscape_assets_transparent_81: 261800466
+      beginningone_landscape_assets_transparent_94: 1091124506
+      beginningone_landscape_assets_transparent_67: -1457999402
+      beginningone_landscape_assets_transparent_35: -1684117158
+      beginningone_landscape_assets_transparent_52: -618072880
+      beginningone_landscape_assets_transparent_80: -85268313
+      beginningone_landscape_assets_transparent_34: 670462786
+      beginningone_landscape_assets_transparent_95: -330762964
+      beginningone_landscape_assets_transparent_16: 659712448
+      beginningone_landscape_assets_transparent_15: 1748412867
+      beginningone_landscape_assets_transparent_59: -1408340537
+      beginningone_landscape_assets_transparent_21: 1219340486
+      beginningone_landscape_assets_transparent_79: 1833842021
+      beginningone_landscape_assets_transparent_38: 1641220
+      beginningone_landscape_assets_transparent_71: -1158977748
+      beginningone_landscape_assets_transparent_84: -261729360
+      beginningone_landscape_assets_transparent_98: 1675915511
+      beginningone_landscape_assets_transparent_57: 63401005
+      beginningone_landscape_assets_transparent_18: -915551208
+      beginningone_landscape_assets_transparent_53: -1084705296
+      beginningone_landscape_assets_transparent_77: 382902149
+      beginningone_landscape_assets_transparent_25: -1051386061
+      beginningone_landscape_assets_transparent_29: 426587011
+      beginningone_landscape_assets_transparent_30: -2117489042
+      beginningone_landscape_assets_transparent_39: 741939636
+      beginningone_landscape_assets_transparent_90: 2009619901
+      beginningone_landscape_assets_transparent_3: 2113230813
+      beginningone_landscape_assets_transparent_76: 54429712
+      beginningone_landscape_assets_transparent_88: 749616662
+      beginningone_landscape_assets_transparent_50: -1924847672
+      beginningone_landscape_assets_transparent_5: 751978464
+      beginningone_landscape_assets_transparent_64: -79454510
+      beginningone_landscape_assets_transparent_9: -129502396
+      beginningone_landscape_assets_transparent_75: 321879699
+      beginningone_landscape_assets_transparent_58: 1596189917
+      beginningone_landscape_assets_transparent_72: 354796520
+      beginningone_landscape_assets_transparent_62: 1561404695
+      beginningone_landscape_assets_transparent_92: 1624405718
+      beginningone_landscape_assets_transparent_63: 90551686
+      beginningone_landscape_assets_transparent_40: 1026916394
+      beginningone_landscape_assets_transparent_2: -2125023388
+      beginningone_landscape_assets_transparent_49: -577680530
+      beginningone_landscape_assets_transparent_8: -36172238
+      beginningone_landscape_assets_transparent_55: 778911613
+      beginningone_landscape_assets_transparent_82: -852199021
+      beginningone_landscape_assets_transparent_22: -920703952
+      beginningone_landscape_assets_transparent_56: -1507011655
+      beginningone_landscape_assets_transparent_61: 2145893840
+      beginningone_landscape_assets_transparent_86: 974693149
+      beginningone_landscape_assets_transparent_7: 1800604890
+      beginningone_landscape_assets_transparent_36: 755448404
+      beginningone_landscape_assets_transparent_45: -1548645657
+      beginningone_landscape_assets_transparent_89: 1752849145
+      beginningone_landscape_assets_transparent_1: -1276120418
+      beginningone_landscape_assets_transparent_11: 1476156390
+      beginningone_landscape_assets_transparent_44: 486299793
+      beginningone_landscape_assets_transparent_43: -243187081
+      beginningone_landscape_assets_transparent_24: -1858841972
+      beginningone_landscape_assets_transparent_91: -1262475218
+      beginningone_landscape_assets_transparent_26: -1789501175
+      beginningone_landscape_assets_transparent_17: -334980312
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
