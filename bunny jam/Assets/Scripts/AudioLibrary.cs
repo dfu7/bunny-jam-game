@@ -43,7 +43,7 @@ public class AudioLibrary : MonoBehaviour
 
     public void MStage0Play (AudioSource AS)
     {
-        AS.PlayOneShot(MStage0);
+        AS.PlayOneShot(MStage0, 0.9f);
     }
 
     public void MStage1Play(AudioSource AS)
