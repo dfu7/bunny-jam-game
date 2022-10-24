@@ -119,11 +119,11 @@ public class SpriteController : MonoBehaviour
         float timepassed = 0f;
         while(timepassed < fadetime)
         {
-            AS2.volume = Mathf.Lerp(0, 0.5f, timepassed / fadetime);
+            AS2.volume = Mathf.Lerp(0, 0.45f, timepassed / fadetime);
             timepassed += Time.deltaTime;
             yield return null;
         }
-        AS2.volume = 0.5f;
+        AS2.volume = 0.45f;
         }
 
     IEnumerator FadeIn2()
@@ -131,10 +131,10 @@ public class SpriteController : MonoBehaviour
         float timepassed = 0f;
         while (timepassed < fadetime)
         {
-            AS1.volume = Mathf.Lerp(0, 0.7f, timepassed / fadetime);
+            AS1.volume = Mathf.Lerp(0, 0.6f, timepassed / fadetime);
             timepassed += Time.deltaTime;
             yield return null;
         }
-        AS1.volume = 0.7f;
+        AS1.volume = 0.6f;
     }
 }
