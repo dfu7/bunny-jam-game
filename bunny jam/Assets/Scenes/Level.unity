@@ -7593,6 +7593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f9c064b85b17da498706f3b7a0eaa17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  a: {fileID: 802836913}
   AS0: {fileID: 1599332878}
   AS1: {fileID: 1520814292}
   AS2: {fileID: 2065405289}

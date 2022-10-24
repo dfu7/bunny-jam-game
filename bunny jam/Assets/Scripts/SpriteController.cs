@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpriteController : MonoBehaviour
 {
+    public Animator a;
     SpriteRenderer sr;
     PlayerMovement pm;
     bool inSludge = false;
@@ -13,7 +14,6 @@ public class SpriteController : MonoBehaviour
     public AudioSource AS2;
 
     public float fadetime = 2f;
-    private Coroutine activeman;
     private bool start;
     private bool start2;
 
@@ -98,6 +98,7 @@ public class SpriteController : MonoBehaviour
         }
         else if (timeInSludge > initialThreshold)
         {
+            a.enabled = false;
             sr.sprite = secondSprite;
             pm.jumpingPower = secondJumpingPower;
             if (start2)
